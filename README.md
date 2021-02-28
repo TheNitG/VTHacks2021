@@ -36,3 +36,5 @@ For the site, we used a Bootstrap template and modified it according to our desi
 ## How to use locally
 Run: ```pip install -r requirements```
 Then run: ```python main.py```
+
+## [https://devpost.com/software/hippohelper](Our Devpost)
