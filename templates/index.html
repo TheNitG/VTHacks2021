@@ -53,7 +53,7 @@
                             <input type="submit">
                         </form>
                         {%for word in words%}
-                            <br><a href="https://www.google.com/search?q={{word.replace(' ', '+')}}">{{ word }}</a>
+                        <br><iframe width= 1000 height= 500 src="https://www.google.com/search?igu=1&q={{word.replace(' ', '+')}}" title="{{ word }}"></iframe>
                         {%endfor%}
                     </h3>
                 </div>
@@ -64,7 +64,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-code">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-code">Using the Google Cloud Speech to Text API, HippoHelper transcribes video lectures, obtains key phrases, and offers helpful online resources related to the video through our user friendly site.</h3>
                 </div>
             </div>
         </section>
@@ -73,33 +73,31 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/" alt="" />
+                            <img class="mx-auto rounded-circle" src="https://media1.tenor.com/images/0641870b485c8c4a9eb0e6ca159677c9/tenor.gif" alt="" />
                             <h4>Nitish Gorentala</h4>
                             <p class="text-muted">Backend Hippo</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/" alt="" />
+                            <img class="mx-auto rounded-circle" src="https://media1.giphy.com/media/fYMHP2A68T1U7SgTHS/200.gif" alt="" />
                             <h4>Tuan Tran</h4>
                             <p class="text-muted">Frontend Hippo</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/" alt="" />
+                            <img class="mx-auto rounded-circle" src="https://i.pinimg.com/originals/f8/46/bd/f846bd9b4e24d10c5415262af6fc8ef4.gif" alt="" />
                             <h4>Julia Chen</h4>
                             <p class="text-muted">Frontend Hippo</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
         <!-- Contact-->
