@@ -7,7 +7,7 @@ We wanted to improve the online learning experience for fellow Hokies and studen
 HippoHelper allows users to upload audio files of video lectures and transcribes them. After the lectures are transcribed, the site displays key phrases and useful online resources related to the key phrases.
 
 ## How we built it
-###For the site, we used a Bootstrap template and modified it according to our design preferences. We used Flask for the server with Jinja templating and Google Cloud Speech to Text API for the transcription. We also utilized FFMPEG to convert media files to the needed format. 
+For the site, we used a Bootstrap template and modified it according to our design preferences. We used Flask for the server with Jinja templating and Google Cloud Speech to Text API for the transcription. We also utilized FFMPEG to convert media files to the needed format. 
 
 ## Challenges we ran into
 - Converting media files to necessary formats for speech to text 
