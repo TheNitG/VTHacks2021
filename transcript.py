@@ -34,6 +34,3 @@ def transcribe_gcs(gcs_uri):
         for result in response.results:
             # The first alternative is the most likely one for this portion.
             file.write(u"{} ".format(result.alternatives[0].transcript))
-
-
-transcribe_gcs(gcs_uri)

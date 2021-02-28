@@ -1,6 +1,7 @@
 requests==2.25.1
 python-dotenv==0.15.0
 Flask~=1.1.2
-profanity-filter
-spacy~=2.3.5
 rake-nltk
+google-cloud-storage==1.36.1
+gunicorn==20.0.4; python_version > '3.0'
+gunicorn==19.10.0; python_version < '3.0'
