@@ -1,4 +1,4 @@
-# HippoHelper
+# HippoHelper (Winner of VTHacks 2021 "Best use of Google Cloud"
 
 ## Inspiration
 We wanted to improve the online learning experience for fellow Hokies and students in general. We wanted to use the Google Cloud Speech to Text API to help students further understand class content.
