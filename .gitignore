@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/My First Project-748193cc3ddc.json
+/.idea/

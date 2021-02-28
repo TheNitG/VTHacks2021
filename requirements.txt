@@ -1,0 +1,6 @@
+requests==2.25.1
+python-dotenv==0.15.0
+Flask~=1.1.2
+profanity-filter
+spacy~=2.3.5
+rake-nltk
