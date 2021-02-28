@@ -32,3 +32,7 @@ For the site, we used a Bootstrap template and modified it according to our desi
 - Proper file submission through the site
 - Improve algorithm for providing online resources 
 - Storing submitted videos on the site
+
+## How to use locally
+Run: ```pip install -r requirements```
+Then run: ```python main.py```
